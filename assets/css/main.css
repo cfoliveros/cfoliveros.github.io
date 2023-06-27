@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	
 }
 
 ol, ul {
@@ -113,6 +114,7 @@ input, select, textarea {
 
 	html {
 		font-size: 16pt;
+		
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1661,20 +1663,18 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		body.responsive-video {
+		.video-container {
 			position: relative;
-			padding-bottom: 56.25%; /* proporción de aspecto 16:9 /
-			padding-top: 30px; / para evitar que el contenido se superponga a la parte superior */
+			padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
 			height: 0;
 			overflow: hidden;
-			}
-			
-		body.responsive-video iframe {
+		  }
+		  
+		  .video-container video {
 			position: absolute;
 			top: 0;
 			left: 0;
 			width: 100%;
 			height: 100%;
-			}
-
-			
+		  }
+		  
