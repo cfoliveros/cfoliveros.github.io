@@ -383,6 +383,20 @@
 								left: 21px; /* Ajuste correspondiente */
 							}
 						}
+
+						@media screen and (max-width: 768px) {
+							.major a {
+								word-wrap: break-word; /* Break long words if necessary */
+								word-break: break-word; /* Ensure long links break properly */
+								font-size: 1.2em; /* Adjust font size for smaller screens */
+							}
+						}
+
+						@media screen and (max-width: 480px) {
+							.major a {
+								font-size: 1em; /* Further reduce font size for very small screens */
+							}
+						}
 					</style>
 
 					<ul class="actions stacked">
