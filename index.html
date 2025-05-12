@@ -153,7 +153,7 @@
 
 					<span class="image main"><img src="images/btg.jpeg" alt="" loading="lazy" /></span>	
 
-					<h3 class="major"><a href="https://www.bolsadesantiago.com/" target="_blank">Santiago Stock Exchange</a> : 2019 - 2023</h3>
+					<h3 class="major"><a href="https://www.bolsadesantiago.com/" target="_blank">Santiago Stock Exchange</a>:2019-2023</h3>
 					
 					<span class="image main"><img src="images/LogoBolsaORIGINAL.png" alt="" loading="lazy" /></span>
 					
@@ -382,6 +382,17 @@
 							.timeline::after {
 								left: 21px; /* Ajuste correspondiente */
 							}
+						}
+
+						@media screen and (max-width: 768px) {
+								.major {
+									font-size: 1em; /* Reduce font size for smaller screens */
+									word-wrap: break-word;
+									word-break: break-word;
+								}
+								.major a {
+									display: inline; /* Ensure the link behaves like inline text */
+								}
 						}
 
 						@media screen and (max-width: 768px) {
@@ -674,3 +685,4 @@
 		</style>
 	</body>
 </html>
+``` 
